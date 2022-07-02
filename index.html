@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tab</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div>
+            <script src="index.js"></script>
+        </div>
+        <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+        <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+        <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+        <button class="tablink" onclick="openPage('About', this, 'yellow')">About</button>
+
+        <div id="Home" class="tabcontent">
+            <h2>Home</h2>
+            <p>An organazized home.</p>
+        </div>
+        <div id="News" class="tabcontent">
+            <h2>News</h2>
+            <p>A supposedly well-crafted piece of writing.</p>
+        </div>
+        <div id="Contact" class="tabcontent">
+            <h2>Contact</h2>
+            <p>Drop me a message here.</p>
+        </div>
+        <div id="About" class="tabcontent">
+            <h2 id="about-paragraph">About</h2>
+            <p id="who">Who are we?</p>
+        </div>
+
+    </body>
+</html>
